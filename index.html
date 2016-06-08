@@ -1,60 +1,52 @@
----
-layout: default
-title: jquery.adaptive-backgrounds.js &bull; A jQuery plugin for extracting dominant colors from images and applying it to its parent 
----
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nathan Lea</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
+				<!-- Header -->
+					<header id="header">
+						<h1>Nathan Lea</h1>
+						<p>Software Engineer &nbsp;&bull;&nbsp; Photographer</p>
+						<nav>
+							<ul>
+								<li><a href="https://github.com/nathanlea" class="icon fa-github"><span class="label">Github</span></a></li>
+                                <li><a href="http://nathanleaphotography.pixieset.com/" class="icon fa-photo"><span class="label">Photos</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/leanathan" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://twitter.com/the_nahtaN" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="mailto:nathan@nathanlea.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-<div class='image-wrapper slow'>
-  <div class='inner'>
-    <span class='color'>
-      <span class='swatch'></span>
-    </span>
-    <img src="img/main-images/1.jpg" data-adaptive-background='1' data-description='grandpa'>
-  </div>
-</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Nathan Lea: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
 
-<div class='image-wrapper'>
-  <div class='inner'>
-    <span class='color'>
-      <span class='swatch'></span>
-    </span>
-    <img src="img/main-images/2.jpg" data-adaptive-background='1'>
-  </div>
-</div>
-
-<div class='image-wrapper'>
-  <div class='inner'>
-    <span class='color'>
-      <span class='swatch'></span>
-    </span>
-    <img src="img/main-images/3.jpg" data-adaptive-background='1' data-description='boy'>
-  </div>
-</div>
-
-<div class='image-wrapper'>
-  <div class='inner'>
-    <span class='color'>
-      <span class='swatch'></span>
-    </span>
-    <img src="img/main-images/4.jpg" data-adaptive-background='1'>
-  </div>
-</div>
-
-<div class='image-wrapper'>
-  <div class='inner'>
-    <span class='color'>
-      <span class='swatch'></span>
-    </span>
-    <img src="img/main-images/5.jpg" data-adaptive-background='1'>
-  </div>
-</div>
-
-<div class='image-wrapper'>
-  <div class='inner'>
-    <span class='color'>
-      <span class='swatch'></span>
-    </span>
-    <img src="img/main-images/6.jpg" data-adaptive-background='1'>
-  </div>
-</div>
-
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>

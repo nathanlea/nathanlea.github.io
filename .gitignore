@@ -1,2 +1,6 @@
 _site
 node_modules
+
+#MAC
+.DS_Stores
+*.zip
